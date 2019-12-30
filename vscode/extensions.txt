@@ -1,0 +1,10 @@
+akamud.vscode-theme-onelight
+bungcip.better-toml
+dbaeumer.vscode-eslint
+esbenp.prettier-vscode
+lextudio.restructuredtext
+mrmlnc.vscode-duplicate
+ms-python.python
+searKing.preview-vscode
+sgtsquiggs.vscode-active-file-status
+wmaurer.change-case

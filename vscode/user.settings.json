@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "Atom One Light",
+  "window.zoomLevel": 1,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.enablePreview": false,
+  "search.useIgnoreFiles": false,
+  "editor.minimap.enabled": false,
+  "files.exclude": {
+    "**/.venv/": true,
+    "**/node_modules": true
+  },
+  "editor.scrollBeyondLastLine": false,
+  "editor.codeLens": false,
+  "merge-conflict.codeLens.enabled": false,
+  "editor.rulers": [80],
+  "editor.autoClosingBrackets": "never",
+  "editor.autoClosingQuotes": "never",
+  "html.autoClosingTags": false,
+  "javascript.autoClosingTags": false,
+  "typescript.autoClosingTags": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "editor.tabSize": 2,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.quickSuggestions": {
+    "other": false,
+    "comments": false,
+    "strings": false
+  },
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "search.exclude": {
+    "**/_vendor/": true,
+    "**/dist/": true
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "javascript.suggest.enabled": false,
+  "typescript.suggest.enabled": false,
+  "editor.wordBasedSuggestions": false,
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+  "javascript.suggest.names": false,
+  "javascript.suggest.autoImports": false,
+  "javascript.suggest.paths": false,
+  "typescript.suggest.paths": false,
+  "html.suggest.html5": false,
+  "typescript.suggest.autoImports": false,
+  "editor.suggestOnTriggerCharacters": false,
+  "scss.suggestFunctions": false,
+  "scss.suggestVariables": false,
+  "scss.suggestMixins": false,
+  "javascript.suggest.completeJSDocs": false,
+  "typescript.suggest.completeJSDocs": false,
+  "files.eol": "\n",
+  "editor.formatOnSave": true,
+  "git.enabled": false,
+  "editor.fontSize": 12,
+  "explorer.confirmDragAndDrop": false,
+  "javascript.validate.enable": false,
+  "files.associations": {
+    "*.json": "json"
+  },
+  "[json]": {},
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.formatting.provider": "black"
+}
