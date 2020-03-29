@@ -12,7 +12,9 @@
   "editor.scrollBeyondLastLine": false,
   "editor.codeLens": false,
   "merge-conflict.codeLens.enabled": false,
-  "editor.rulers": [80],
+  "editor.rulers": [
+    80
+  ],
   "editor.autoClosingBrackets": "never",
   "editor.autoClosingQuotes": "never",
   "html.autoClosingTags": false,

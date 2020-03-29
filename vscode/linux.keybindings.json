@@ -917,11 +917,6 @@
     "when": "inReferenceSearchEditor && !config.editor.stablePeek"
   },
   {
-    "key": "shift+escape",
-    "command": "-closeReviewPanel",
-    "when": "reviewPanelVisible"
-  },
-  {
     "key": "ctrl+shift+c",
     "command": "-workbench.action.terminal.openNativeConsole",
     "when": "!terminalFocus"
@@ -1082,12 +1077,12 @@
   },
   {
     "key": "alt+f",
-    "command": "workbench.action.terminal.findNextTerminalFocus",
+    "command": "workbench.action.terminal.findNext",
     "when": "terminalFocus"
   },
   {
     "key": "f3",
-    "command": "-workbench.action.terminal.findNextTerminalFocus",
+    "command": "-workbench.action.terminal.findNext",
     "when": "terminalFocus"
   },
   {
@@ -1117,18 +1112,8 @@
   },
   {
     "key": "alt+r",
-    "command": "-workbench.action.terminal.toggleFindRegexTerminalFocus",
+    "command": "-workbench.action.terminal.toggleFindRegex",
     "when": "terminalFocus"
-  },
-  {
-    "key": "alt+r",
-    "command": "-toggleFindRegex",
-    "when": "editorFocus"
-  },
-  {
-    "key": "alt+r",
-    "command": "-toggleSearchRegex",
-    "when": "searchViewletFocus && searchViewletVisible"
   },
   {
     "key": "ctrl+k",
@@ -1153,5 +1138,35 @@
     "key": "ctrl+shift+alt+c",
     "command": "-copyRelativeFilePath",
     "when": "!editorFocus"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "toggleSearchRegex",
+    "when": "searchViewletFocus && searchViewletVisible"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleSearchRegex",
+    "when": "searchViewletFocus && searchViewletVisible"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "toggleFindRegex",
+    "when": "editorFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleFindRegex",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+alt+r",
+    "command": "toggleSearchEditorRegex",
+    "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "alt+r",
+    "command": "-toggleSearchEditorRegex",
+    "when": "inSearchEditor && searchInputBoxFocus"
   }
 ]
