@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Atom One Light",
   "window.zoomLevel": 1,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.enablePreview": false,
@@ -62,6 +61,9 @@
   },
   "[json]": {},
   "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "python.formatting.provider": "black"
