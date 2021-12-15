@@ -57,11 +57,13 @@
     "*.json": "json"
   },
   "[json]": {},
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "python.formatting.provider": "black"
+  "python.formatting.provider": "black",
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+  "ActiveFileInStatusBar.fullpath": false,
+  "typescript.tsdk": "./node_modules/typescript/lib",
+  "markdown-preview-enhanced.AccessKey": "alt+m"
 }
