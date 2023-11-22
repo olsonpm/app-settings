@@ -1168,5 +1168,25 @@
     "key": "alt+r",
     "command": "-toggleSearchEditorRegex",
     "when": "inSearchEditor && searchInputBoxFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-filesExplorer.findInFolder",
+    "when": "explorerResourceIsFolder && filesExplorerFocus && foldersViewVisible && !inputFocus"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "-search.action.restrictSearchToFolder",
+    "when": "folderMatchWithResourceFocus && searchViewletVisible"
+  },
+  {
+    "key": "shift+alt+f",
+    "command": "editor.action.previousMatchFindAction",
+    "when": "editorFocus"
+  },
+  {
+    "key": "shift+enter",
+    "command": "editor.action.previousMatchFindAction",
+    "when": "editorFocus && findInputFocussed"
   }
 ]
